@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+body {
+    background: linear-gradient(gray, lightslategray, white );
+}
+
+    .KD {
+        text-align: center;
+    }
+.giannis {
+    text-align: center;
+}
+p {
+    font-size: x-large;
+}
+ul {
+    font-style: oblique;
+    font-size: large;
+}
+@media(max-width: 410px) {
+    h1{ 
+        color: blue;
+    }
+    p {
+        color: blue;
+    }
+}
+@media(max-width: 600px) {
+    h1{ 
+        color: red;
+    }
+    p{ color: red;}
+}
