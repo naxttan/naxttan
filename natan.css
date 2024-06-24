@@ -20,6 +20,43 @@ ul {
     font-style: oblique;
     font-size: large;
 }
+.lista {
+    border-color: aqua;
+    border-width: 20px;
+    border-style: inset;
+    display: inline-block;
+}
+nav a{
+    text-transform: uppercase;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {
+    color: brown;
+}
+footer {
+    font-size: x-large;
+}
+.jordan {
+    border-color: black;
+    border-width: 20px;
+    border-style: inset;
+    display: inline-block;
+}
+.KD {
+    border-color: black;
+    border-width: 20px;
+    border-style: inset;
+    display: inline-table;
+}
+.giannis {
+    border-color: black;
+    border-width: 20px;
+    border-style: inset;
+    display: inline-flex;
+}
+
 @media(max-width: 410px) {
     h1{ 
         color: blue;
@@ -27,10 +64,14 @@ ul {
     p {
         color: blue;
     }
+    .lista { font-style: italic;}
 }
 @media(max-width: 600px) {
     h1{ 
         color: red;
     }
     p{ color: red;}
+    .lista{
+        font-style: inherit;
+    }
 }
